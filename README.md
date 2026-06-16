@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.25.6-blue.svg)](https://golang.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-[![Go Reference](https://pkg.go.dev/badge/github.com/cosmorse/ssdeep.svg)](https://pkg.go.dev/github.com/cosmorse/ssdeep)
+[![Go Reference](https://pkg.go.dev/badge/github.com/auzekalabs/ssdeep.svg)](https://pkg.go.dev/github.com/auzekalabs/ssdeep)
 
 [中文文档](README_zh.md)
 
@@ -21,19 +21,19 @@ A pure Go implementation of the ssdeep fuzzy hashing algorithm (Context Triggere
 ### As a Library
 
 ```bash
-go get github.com/cosmorse/ssdeep
+go get github.com/auzekalabs/ssdeep
 ```
 
 ### As a CLI Tool
 
 ```bash
-go install github.com/cosmorse/ssdeep/cmd/ssdeep@latest
+go install github.com/auzekalabs/ssdeep/cmd/ssdeep@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/cosmorse/ssdeep.git
+git clone https://github.com/auzekalabs/ssdeep.git
 cd ssdeep
 go build -o ssdeep ./cmd/ssdeep
 ```
@@ -49,7 +49,7 @@ package main
 
 import (
     "fmt"
-    "github.com/cosmorse/ssdeep"
+    "github.com/auzekalabs/ssdeep"
 )
 
 func main() {
@@ -87,7 +87,7 @@ package main
 
 import (
     "fmt"
-    "github.com/cosmorse/ssdeep"
+    "github.com/auzekalabs/ssdeep"
 )
 
 func main() {

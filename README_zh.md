@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.25.6-blue.svg)](https://golang.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-[![Go Reference](https://pkg.go.dev/badge/github.com/cosmorse/ssdeep.svg)](https://pkg.go.dev/github.com/cosmorse/ssdeep)
+[![Go Reference](https://pkg.go.dev/badge/github.com/auzekalabs/ssdeep.svg)](https://pkg.go.dev/github.com/auzekalabs/ssdeep)
 
 [English Documentation](README.md)
 
@@ -21,19 +21,19 @@ ssdeep 模糊哈希算法（上下文触发分段哈希）的纯 Go 语言实现
 ### 作为库使用
 
 ```bash
-go get github.com/cosmorse/ssdeep
+go get github.com/auzekalabs/ssdeep
 ```
 
 ### 作为命令行工具
 
 ```bash
-go install github.com/cosmorse/ssdeep/cmd/ssdeep@latest
+go install github.com/auzekalabs/ssdeep/cmd/ssdeep@latest
 ```
 
 或从源码编译：
 
 ```bash
-git clone https://github.com/cosmorse/ssdeep.git
+git clone https://github.com/auzekalabs/ssdeep.git
 cd ssdeep
 go build -o ssdeep ./cmd/ssdeep
 ```
@@ -49,7 +49,7 @@ package main
 
 import (
     "fmt"
-    "github.com/cosmorse/ssdeep"
+    "github.com/auzekalabs/ssdeep"
 )
 
 func main() {
@@ -87,7 +87,7 @@ package main
 
 import (
     "fmt"
-    "github.com/cosmorse/ssdeep"
+    "github.com/auzekalabs/ssdeep"
 )
 
 func main() {
